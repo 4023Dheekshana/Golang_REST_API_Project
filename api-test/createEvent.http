@@ -1,0 +1,10 @@
+POST http://localhost:8080/events
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJhaHVsQGdtYWlsLmNvbSIsImV4cCI6MTcyMTA0NzE5NCwidXNlcklkIjo0fQ.SYKSOINu2RDMsYid_ctsXZAeuzqxvNzhUmDWfLL60MY
+
+{
+    "name": "updating event",
+    "description": "Update test event",
+    "location": "Test location",
+    "dateTime": "2024-07-09T15:30:00.000Z"
+}
